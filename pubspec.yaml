@@ -1,0 +1,38 @@
+name: miniprojet
+description: A new Flutter project
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"  # Minimum SDK constraint with null safety
+
+dependencies:
+  get:
+  url_launcher:
+  flag:
+  provider:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations: # Assurez-vous que vous avez cette dépendance
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/profil.png
+    - images/france.png
+    - images/uk.png
+    - images/html.png
+    - images/css.png
+    - images/javascript.png
+    - images/django.png
+    - images/next.png
+    - images/node.png
+
+
